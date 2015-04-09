@@ -17,9 +17,9 @@ public class DBUtilities {
 	 * Get the connection to RDS
 	 */
 	public static Statement connectDB() {
-		String url = "jdbc:mysql://cs5412-primechecker.cywg49njkxjp.us-west-2.rds.amazonaws.com:3306/CS5412_PrimeChecker";
-		String username = "primechecker";
-		String password = "primechecker";
+		String url = <Enter host here>
+		String username = <Enter username here>
+		String password = <Enter password here>
 
 		try {
 			Class.forName("com.mysql.jdbc.Driver");
